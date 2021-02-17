@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    outline: none;
+    user-select: none;
+}
+
+body{
+    background-color: #000;
+    color: #f0ec00;
+}
+
+header{
+    width: 100%;
+    height: 20vh;
+}
+
+#header-content{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#header-content #logo h1{
+    font-size: 28px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+#header-content #logo h1:hover{
+    letter-spacing: 3px;
+    transition: .3s ease-in-out;
+    
+}
+
+#header-content ul{
+    list-style: none;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#header-content li{
+    display: inline-block;
+    margin: 15px 10px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#header-content li:hover{
+    opacity: 0.7;
+}
+
+#header-content li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#header-content li:last-child a{
+    margin-left: 10px;
+    background-color: #f0ec00;
+    padding: 10px 20px;
+    color: #000;
+    border-radius: 40px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+main #content-container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+}
+
+main #content-container h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main #content-container p{
+    text-align: center;
+    color: #fff;
+}
+
+main #content-container button{
+    border: none;
+    width: 150px;
+    background-color: #f0ec00;
+    color: #000;
+    padding: 16px 0;
+    border-radius: 40px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 auto;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+main #content-container button:hover{
+    opacity: 0.8;
+}
+
+main #bg-container{
+    width: 50%;
+    align-items: center;
+    margin-left: 90px;
+}
+
+main #bg-container img{
+    width: 100%;
+}
